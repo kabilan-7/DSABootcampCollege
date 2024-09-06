@@ -22,8 +22,6 @@ public class TwoDArray {
         //     System.out.println();
         // }
         int n=arr.length;
-        boolean isrev=false;
-        
         for(int i=0;i<n;i++){
           if(i%2==0){
             for(int j=0;j<arr[i].length;j++){
@@ -35,7 +33,7 @@ public class TwoDArray {
             }
           }
           System.out.println();
-          isrev=true;
+         
         }
     }
     }
