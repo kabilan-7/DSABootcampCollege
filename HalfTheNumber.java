@@ -6,7 +6,6 @@ public class HalfTheNumber {
         int n=sc.nextInt();
         int count=0;
         while(n!=1){
-               
             count++;
         }
         System.out.println(count);
