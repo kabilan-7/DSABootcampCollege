@@ -1,3 +1,5 @@
+package DSABootcampCollege.matrix;
+
 public class AddTwoNumber{
     public static void main(String[] args) {
         int arr1[]={5,3,1,4};

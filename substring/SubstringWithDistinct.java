@@ -1,3 +1,5 @@
+package DSABootcampCollege.substring;
+
 import java.util.HashMap;
 import java.util.Map;
 public class SubstringWithDistinct {

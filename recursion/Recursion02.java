@@ -1,3 +1,5 @@
+package DSABootcampCollege.recursion;
+
 public class Recursion02{
     public static void main(String[] args) {
         func(3);

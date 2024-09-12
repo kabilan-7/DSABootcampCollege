@@ -1,3 +1,5 @@
+package DSABootcampCollege.matrix;
+
 public class Diagonal {
     public static void main(String[] args) {
         char arr[][]={

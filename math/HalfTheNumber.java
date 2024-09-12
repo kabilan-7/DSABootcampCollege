@@ -1,16 +1,17 @@
+package DSABootcampCollege.math;
+
 import java.util.Scanner;
-public class CountDigit {
+public class HalfTheNumber {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter n:");
+        System.out.println("Enter the n:");
         int n=sc.nextInt();
         int count=0;
-        while(n>0){
-            n/=10;
+        while(n!=1){
             count++;
         }
-        System.out.println("Count:"+count);
-
-        
+        System.out.println(count);
     }
+    
+
 }

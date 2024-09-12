@@ -1,4 +1,6 @@
-public class RotateBy90{
+package DSABootcampCollege.matrix;
+
+public class TransposeMatrix {
     public static void main(String[] args) {
         int arr[][]={
             {1,2,3},
@@ -10,9 +12,6 @@ public class RotateBy90{
         int n=arr[0].length;
         int ans[][]=new int[n][m];
         transpose(arr,m,n);
-        for(int i=0;i<m;i++){
-            reverse(arr,i);
-        }
         display(arr,m,n);
     }
     static void display(int arr[][],int m,int n){
@@ -23,20 +22,7 @@ public class RotateBy90{
             System.out.println();
         }
     }
-    static void reverse(int arr[][],int row){
-        int i=0;
-        int j=arr[row].length-1;
-        while(i<j){
-            swap02(arr,i,j,row);
-            i++;
-            j--;
-        }
-    }
-    static void swap02(int arr[][],int i,int j,int row){
-        int temp=arr[row][i];
-            arr[row][i]=arr[row][j];
-            arr[row][j]=temp;
-    }
+
     static void transpose(int arr[][],int m,int n){
         for(int i=0;i<m;i++){
             for(int j=i+1;j<n;j++){
@@ -49,5 +35,5 @@ public class RotateBy90{
          arr[i][j]=arr[j][i];
          arr[j][i]=temp;
     }
-  
+    
 }
